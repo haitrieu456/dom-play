@@ -9,6 +9,12 @@
   <link rel="stylesheet" href="css/nav.css">
   <link rel="stylesheet" href="css/forms.css">
   <style>
+
+    .center {
+            text-align-last: center;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
     .hamlet{
       /* background-color: yellow; */
       
@@ -21,24 +27,24 @@
  </head>
  <body>
      <header>
-     <h1 class="page-header">Site Name</h1>
+     <h1 class="page-header">DOM Play</h1>
         <nav class="topnav" id="myTopnav">
-            <a href="index.html" class="active">Home</a>
-            <a href="#">Link</a>
-            <a href="#">Link</a>
-            <a href="#">Link</a>
+            <a href="index.html" class="active" >Trieu Home Page</a>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
         </nav>
      </header>
      
    <main class="wrapper"> 
-       <h2 class="subheader">DOM Play</h2>
-       <div id="play">
-      <p><span data-actor="hamlet">Hamlet: To be or not to be</span></p>
-      <p><span data-actor="skull">Skull: Are you talking to me?</span></p>
-      <p><span data-actor="hamlet">Hamlet: What did chu say?</span></p>
-      <p><span data-actor="skull">Skull: Can't talk, Skull only</span></p>
-      <p><span data-actor="hamlet">Hamlet: Nice, thought I'm tripping</span></p>
+      <img src="images/princessmononoke.jpeg" alt="princessmononoke">
+       <h2 style = "text-align:center">Princess Mononoke</h2>
+       <div id="play" class="center">
+      <p><span data-actor="ashitaka">Ashitaka: It's headed for the village. I've got to stop it.</span></p>
+      <p><span data-actor="girl">Girl: Prince Ashitaka, wait! Be careful!</span></p>
+      <p><span data-actor="headmaster">Head Master: That thing is cursed! Don't let it touch you!</span></p>
+      <p><span data-actor="ashitaka">Ashitaka: Calm your fury, o mighty lord!</span></p>
+      <p><span data-actor="headmaster">Head Master: Whatever you may be, god or demon, please leave us in peace!</span></p>
+      <p><span data-actor="girl">Girl: - The monster! - Come on!</span></p>
+      <p><span data-actor="ashitaka">Ashitaka: Go back! Please! Leave our village alone!</span></p>
        </div>
      <footer>
       <p><small>&copy; 2021-<span id="this-year"></span> by 
